@@ -23,19 +23,37 @@ Contains:  Downloaded images, comprising of 15 classes, at 5-7 representatives p
 
 Classes:
 
-Scalpel       Scalpel
-Scissors      Mayo-Metz_scissors
-              Iris_scissors
-              Potts_scissors
-Forceps       Forceps
-Clamp         Hemostat
-              Bulldog_clamp
-              Towel_clip
-Needle_Holder Castroviejo_NH
-Retractor     Weitlaner
-              Richardson
-              Army_Navy
-Suction       Frazier
-              Yankauer
-Needle        Needle
+Scalpel:      
+Scalpel
+
+Scissors:      
+Mayo_metz
+Iris
+Potts
+
+Forceps:
+Forceps
+Clamp:
+Hemostat
+Bulldog
+Towel_clip
+
+Needle_Holder:
+Castroviejo
+
+Retractor:
+Weitlaner
+Richardson
+Army_navy
+
+Suction:
+Frazier
+Yankauer
+
+Needle:
+Needle
+
+#Finding:# might be possible to upload directly to Roboflow and use COCO-assisted labelling.
+
+Refined annotations downloaded in COCO JSON form and RetinaNet CSV form.
 
