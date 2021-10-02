@@ -1,0 +1,5 @@
+Surg_100_ann_coco/train contains two annotations:
+
+_annotations.coco.json has one supercategory ('Surgical_instruments')
+
+_annotations_.coco.json has 8 supercategories indicated in the main README
