@@ -21,36 +21,37 @@ Focus:  Using images manually gathered from the net, annotated in roboflow, expo
 
 Contains:  Downloaded images, comprising of 15 classes, at 5-7 representatives per class, N=100; for inference and pseudolabel generation, refining of annotation.
 
-Classes:
+#### Classes (Supercategories/ Name):
 
-Scalpel:      
+#### Scalpel:   
 Scalpel
 
-Scissors:      
+#### Scissors:      
 Mayo_metz
 Iris
 Potts
 
-Forceps:
+#### Forceps:
 Forceps
-Clamp:
+
+#### Clamp:
 Hemostat
 Bulldog
 Towel_clip
 
-Needle_Holder:
+#### Needle_holder:
 Castroviejo
 
-Retractor:
+#### Retractor:
 Weitlaner
 Richardson
 Army_navy
 
-Suction:
+#### Suction:
 Frazier
 Yankauer
 
-Needle:
+#### Needle:
 Needle
 
 #Finding:# might be possible to upload directly to Roboflow and use COCO-assisted labelling.
