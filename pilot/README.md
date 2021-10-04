@@ -1,12 +1,12 @@
-* finetuning
+#### finetuning
 
 contains images, annotations, notebooks on fine-tuning a pretrained model for 2nd inference iteration
 
-* manual labelling
+#### manual labelling
 
 Trying various annotation tools
 
-* pseudolabels
+#### pseudolabels
 
 generating pseudolabels from pretrained models
 
