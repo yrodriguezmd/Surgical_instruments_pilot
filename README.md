@@ -28,7 +28,9 @@ Scalpel
 
 #### Scissors:      
 Mayo_metz
+
 Iris
+
 Potts
 
 #### Forceps:
@@ -36,7 +38,9 @@ Forceps
 
 #### Clamp:
 Hemostat
+
 Bulldog
+
 Towel_clip
 
 #### Needle_holder:
@@ -44,11 +48,14 @@ Castroviejo
 
 #### Retractor:
 Weitlaner
+
 Richardson
+
 Army_navy
 
 #### Suction:
 Frazier
+
 Yankauer
 
 #### Needle:
