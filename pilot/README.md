@@ -13,3 +13,7 @@ generating pseudolabels from pretrained models
 - retinanet-resnet50-fpn
 
 - vfnet-resnet50-fpn
+
+#### test/ raw
+
+Contain 15 images for testing
