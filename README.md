@@ -2,7 +2,7 @@
 
 A repository of notebooks for project development of a surgical instrument detection tool
 
-#### A. Pilot
+#### A. PILOT
 
 #### 1. Manual_Labelling
 
@@ -15,7 +15,9 @@ Focus:  Using images manually gathered from the net, annotated in roboflow, expo
 #### b.  CVAT
 
 
-#### B.  Datasets For Pseudolabelling
+#### B.  PROJECT
+
+Datasets For Pseudolabelling
 
 #### 1.  Surg100
 
