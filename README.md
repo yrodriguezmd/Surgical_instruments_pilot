@@ -1,6 +1,42 @@
-### Surgical_instruments
+## Object Detection for Surgical Instruments
 
-A repository of notebooks for project development of a surgical instrument detection tool
+#### Objective:
+
+Develop an application that can reliably locate and identify surgical instruments in an image.
+
+#### Summary of Methodology:
+
+#### 1.  Develop a teacher model
+  
+  a.  Create labelled data (n = 500 - 1000)
+  
+      i.   Generate pseudolabels using a pretrained model (VFnet, RetinaNet) (n=100)
+      
+      ii.  Refine annotation using annotation tool in Roboflow
+      
+      iii. Iteratively generate pseudolabels by passing through fine-tuned models (n= 100 per iteration)
+      
+  b.  At labelled data n = 500 - 1000, create pseudolabels by running unlabelled images (n= 4000) through:
+  
+      i.  VFnet with pretrained weights
+      
+      ii. VFnet with random initialized weights
+      
+#### 2.  Develop a student model
+
+      i.  Merge the labelled data (from 1.a.) with the pseudolabels (from 1.b)
+      
+      ii. Run through a VFnet configuration with randomly initialized weights
+      
+#### 3.  Test on held-out test dataset (n= 500)
+
+#### 4.  Deploy
+
+
+
+### Surgical_instruments Repository
+
+A collection of images, annotations and notebooks for project development of a surgical instrument detection tool
 
 #### A. PILOT
 
