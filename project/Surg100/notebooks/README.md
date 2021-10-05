@@ -10,4 +10,5 @@ visually, predictions were not good --> do not use.
 Proceed with Surg200 inference using:
 
 option a)  Direct roboflow upload of images, use label assist,
+
 option b)  2nd iteration of inference using pretrained VFNet
