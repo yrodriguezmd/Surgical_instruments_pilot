@@ -10,7 +10,7 @@ Develop an application that can reliably locate and identify surgical instrument
   
   a.  Create labelled data (n = 500 - 1000)
   
-      i.   Generate pseudolabels using a pretrained model (VFnet, RetinaNet) (n=100)
+      i.   Generate pseudolabels using a pretrained model (VFnet, RetinaNet in Airctic/IceVision) (n=100)
       
       ii.  Refine annotation using annotation tool in Roboflow
       
