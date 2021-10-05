@@ -61,7 +61,11 @@ Yankauer
 #### Needle:
 Needle
 
-#Finding:# might be possible to upload directly to Roboflow and use COCO-assisted labelling.
-
 Refined annotations downloaded in COCO JSON form and RetinaNet CSV form.
+
+#### Surg200
+
+Mixed surgical instruments, N=100, n_classes = 15, n_supercategories = 8.
+
+--> Merge Surg100 and Surg200, fine tune Vfnet
 
