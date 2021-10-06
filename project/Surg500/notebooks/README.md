@@ -12,4 +12,4 @@ With lower lr (0.0005) compared to the first (0.0025), now with good mAP 67.
 
 When Surg500 was used for inference, generated reasonable bboxes, poor classification apart from Weitlaner.
 
-Refine pseudolabels.
+Refine pseudolabels.  Json annotation now using 8 supercategories.
