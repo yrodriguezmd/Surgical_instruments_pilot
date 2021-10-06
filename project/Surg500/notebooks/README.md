@@ -4,11 +4,12 @@ finetuning of vfnet with poor mAPs at 0.35 at >50epoch run.
 
 Poor inference with Surg500 dataset.
 
-TO-DO:
-
-Try re-running with Surg100_300 notebook
 
 
-#### Surg100_400_rerunning
+#### Surg100_400_infSurg500
 
-With lower lr compared to the first, now with good mAP 60
+With lower lr (0.0005) compared to the first (0.0025), now with good mAP 67.
+
+When Surg500 was used for inference, generated reasonable bboxes, poor classification apart from Weitlaner.
+
+Refine pseudolabels.
