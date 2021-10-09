@@ -107,3 +107,9 @@ Mixed surgical instruments, N=100, n_classes = 15, n_supercategories = 8.
 
 --> Merge Surg100 and Surg200, fine tune Vfnet
 
+
+#### Annotation Tool insights
+
+- initial label assist not good, but as progress through the process, suggestions become better
+
+- train/ val/ test split representatives are preserved when projects are merged
